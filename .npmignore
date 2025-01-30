@@ -7,3 +7,8 @@ src/
 .github/
 .huskyrc
 commitlint.*
+.idea/
+*.text
+*.txt
+*backup*
+install*

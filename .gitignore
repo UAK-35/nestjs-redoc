@@ -31,3 +31,9 @@ pids
 *.seed
 *.pid.lock
 
+*.cmd
+*.text
+*.txt
+/*backup*
+/install*
+hooks

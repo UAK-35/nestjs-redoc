@@ -59,6 +59,7 @@ describe('redoc-module', () => {
       await app.init();
       await request(app.getHttpServer()).get('/doc').expect(200);
       await request(app.getHttpServer())
+        // @ts-ignore
         .get('/doc/swagger.json', (result) => console.log(result))
         .expect(200);
       await app.close();
